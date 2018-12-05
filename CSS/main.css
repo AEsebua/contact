@@ -1,5 +1,21 @@
 /*გლობალური ჯგუფი*/
 
+.Montserrat-Medium {
+
+	font-family: "Montserrat-Medium";
+}
+
+.NunitoSans-Bold {
+
+	font-family: "NunitoSans-Bold";
+
+}
+.NunitoSans-Regular {
+
+	font-family: "NunitoSans-Regular";
+}
+
+
 .display-inline-block {
 
 	display: inline-block;
