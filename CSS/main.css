@@ -26,28 +26,35 @@
 
 /*გლობალური ჯგუფის დასასრული*/
 
-/*#logo-imige {
-
-	margin: 0px;
-}*/
+  
+ /*  შესავალი*/
 
 #logo-imige:hover {
 
 	cursor: pointer;
 }
 
+#logo-imige, nav {
+
+vertical-align: middle;
+}
+
+#logo-imige {
+
+	margin-left: 50px;
+}
 header {
 
 	margin: 30px;
 }
 
-a {
+li a {
 
 	text-decoration: none;
 	color: inherit;
 }
 
-a:hover {
+li a:hover {
 
 	color: #40E0D0;
 }
@@ -70,3 +77,94 @@ nav li {
 nav li:last-of-type {
 	margin-right: 0px;
 }
+
+/*შესავალის დასასრული*/
+
+/*კონტაქტები*/
+
+.text-container {
+
+	padding: 100px;
+	background-color: #DCDCDC;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 30px;
+
+}
+
+div p {
+	margin-bottom: 20px;
+}
+
+div {
+
+	width: 500px;
+}
+
+/*კონტაქტების დასასრული*/
+
+
+ /*შეტყობინების გაგზავნა*/
+
+ .input-menu{
+
+ 	width: 150px;
+ 	margin-bottom: 40px;
+
+ }
+
+ .input-menu2 {
+
+ 	width: 310px;
+ 	margin-bottom: 40px;
+
+ }
+
+.input-menu2, .input-menu {
+
+	vertical-align: middle;
+}
+
+input::placeholder {
+	padding: 15px;
+}
+
+textarea {
+
+	padding: 30px 81px;
+	margin-bottom: 40px;
+ 
+}
+
+.bottom {
+
+	text-decoration: none;
+	color: inherit;
+	font-size: 15px;
+	
+	
+	
+
+}  
+
+/*შეტყობინების გაგზავნის დასასრული*/
+
+ /*დაბოლოება*/
+
+ footer {
+ 	background-color: #000;
+ 	padding: 30px;
+ }
+
+ h3 {
+ 	color: #ffffff;
+margin-bottom: 15px;
+ }
+
+ footer p {
+	
+	color: #ffffff;
+
+} 
